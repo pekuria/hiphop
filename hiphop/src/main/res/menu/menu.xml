@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:title="@string/settings"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/help"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:title="@string/help"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="4"
+        android:icon="@drawable/share"
+        app:showAsAction="ifRoom"
+        android:title="@string/share"/>
+
+    <item
+        android:id="@+id/action_credit"
+        android:orderInCategory="5"
+        app:showAsAction="collapseActionView"
+        android:title="@string/credit"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/about"
+        android:orderInCategory="6"
+        app:showAsAction="collapseActionView"
+        android:title="@string/about"/>
+
+
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_sync_vibrate"
+        android:summary="vibrate"
+        android:title="Game Vibrate" />
+
+    <ListPreference
+        android:entries="@array/mode"
+        android:entryValues="@array/modeValues"
+        android:defaultValue="1"
+        android:key="pref_sync_mode"
+        android:summary="Set Game Mode"
+        android:title="Game Mode" />
+
+</PreferenceScreen>

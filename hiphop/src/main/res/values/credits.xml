@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txtCredits">
+<![CDATA[
+         <p> A special thank you the following artist for their artwork that is been included on the app through creative commons
+         </p>
+          <p>I Am Hip Hop Icon - <i>designed by beatstrike.</i><p>
+          <p>Dancer  background - <i>designed by Freepik.com modified by P-tahArts.</i><p>
+        ]]>
+    </string>
+
+</resources>

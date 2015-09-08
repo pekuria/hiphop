@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txtHelp">
+<![CDATA[
+          <u><b>To Play</b></u>
+          <p>Select New Game to start the quiz, then choose a level to play.
+          Initially only the 1st level is unlocked. You unlock more levels by getting 7 or more questions right.
+          For each question choose an answer from the options provided, if the answer is correct the
+          game moves to the next question otherwise the selected option turns red.</p>
+          <p>You can make another pick from the remaining options until you get the
+          correct answer at which point the game proceeds to the next question.
+          Once all questions have been answered a page will load displaying the results 
+          and offering you a few options, such to sharing your scores with friends via 
+          sms, facebook, whatsapp etc, uploading your scores to the Leadearboard, viewing the answers.</p>
+
+          <u><b>Levels</b></u>
+          <p>Each level there has a set of 10 questions. Only level one is unlocked, to unlock the
+       	  other levels you have to get atleast 7 out of 10 questions right.
+       	  More levels coming soon.</p>
+
+          <u><b>Scores</b></u>
+          <p>The scores submitted are ordered by level, result(Percentage of No of questions right) and
+          the time taken to complete the game, the higher the level the higher the score.</p>
+
+       	<b>Settings</b><br />
+        	<u><b>Game Modes</b></u>
+        	<p>Select the category you want to play.</p>
+        	
+        		<u><b>Simple</b></u>
+        		<p>The game plays to the end until you have answered all the questions.</p>
+        	
+        		<u><b>Advanced Mode</b></u>
+        		<p>If you get three questions wrong, the game ends - The number of lives is indicated by 3 mics at the top
+        		<p>For every wrong answer provided the game vibrates,
+        		 toggle the sounds/vibrate button to set you preference.</p>
+
+        ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yo">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/high_scores_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        style="@style/CodeFont"
+        android:text="@string/submit"
+         />
+
+    <Button
+        android:id="@+id/replayBtn"
+        style="@style/CodeFont"
+        android:text="@string/replay" />
+
+    <Button
+        android:id="@+id/answerBtn"
+        style="@style/CodeFont"
+        android:text="@string/answers" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        style="@style/CodeFont"
+        android:text="@string/menu" />
+
+    <Button
+        android:id="@+id/leaderboardBtn"
+        style="@style/CodeFont"
+        android:text="@string/leaderboard" />
+    <LinearLayout android:id="@+id/sign_in_bar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="#b4f0f0f0"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_why"
+            android:layout_marginLeft="10dp"
+            android:textColor="#808080" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/sign_out_bar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="#b4f0f0f0"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center|right"
+        android:visibility="gone"
+        android:padding="10dp">
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/you_are_signed_in"
+            android:layout_marginRight="10dp"
+            android:textColor="#808080" />
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_out"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
+

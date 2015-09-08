@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:scrollbars="vertical"
+    android:background="@drawable/yo">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnStart1"
+            style="@style/unlockedButton"                 
+            android:text="@string/level1" />
+
+        <Button
+            android:id="@+id/btnStart2"            
+            style="@style/lockedButton"
+            android:text="@string/level2" />
+
+        <Button
+            android:id="@+id/btnStart3"
+            style="@style/lockedButton"
+            android:text="@string/level3"  />
+
+        <Button
+            android:id="@+id/btnStart4"
+            style="@style/lockedButton"
+            android:text="@string/level4" />
+
+        <Button
+            android:id="@+id/btnStart5"
+            style="@style/lockedButton"
+            android:text="@string/level5" />
+
+        <Button
+            android:id="@+id/btnStart6"
+            style="@style/lockedButton"
+            android:text="@string/level6" />
+    </LinearLayout>
+
+</ScrollView>
